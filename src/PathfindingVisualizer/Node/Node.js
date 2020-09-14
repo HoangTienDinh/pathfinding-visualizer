@@ -1,9 +1,10 @@
 import React from 'react'
+import './Node.css'
 
-const Node = () => {
+const Node = ({ node, nodeInd }) => {
     return (
-        <div>
-            
+        <div className='node'>
+            {node}
         </div>
     )
 }
